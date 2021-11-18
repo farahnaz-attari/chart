@@ -1,0 +1,86 @@
+body {
+    height: 768px;
+    width: 1024px;
+    margin: 0 auto;
+    background-color: rgb(253, 236,166);
+    background-image:
+      linear-gradient(
+        to bottom, 
+        rgb(251, 236, 174), rgb(253, 236,166)
+      );
+     
+  }
+  
+  main{
+    margin-right: 5rem;
+    
+  }
+  
+  #exampleModalLabel{
+    color: rgb(35, 54,102);
+  }
+  
+  #firsttitle{
+    font-size: 2rem;
+    color: rgb(35, 54,102);
+  }
+  
+  .chart-container {
+    position: relative;
+    margin: auto;
+    height: 30rem;
+    width: 50rem;
+  }
+  
+  #modal{
+      background-color: rgb(255, 250,229);
+      background-image:
+      linear-gradient(
+        to bottom, 
+        rgb(255,250,205), rgb(253, 236,166)
+      );
+  }
+  
+  .sidenav {
+      height: 100%;
+      width: 120px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      background-color: rgb(30,45,95);
+      background-image:
+      linear-gradient(
+        to bottom, 
+        rgb(30,45,95), rgb(35, 54,102)
+      );
+      overflow-x: hidden;
+      padding-top: 20px;
+    }
+  
+   img{
+     width: 4rem;
+   }
+  
+    .sidenav  a {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 5rem;
+      color: #818181;
+      display: block;
+    }
+    
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+  
+    .pContainer{
+      text-align: justify; 
+    }
+  
+    .pStyle{
+      font-size: 10px;
+      margin : 0 3rem 1rem;
+      
+    }
+  
